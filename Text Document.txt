@@ -1,0 +1,105 @@
+
+//what are semantic elements ?what is use of it?
+
+.A semantic element clearly describes its meaning to both the browser and the developer.
+
+ semantic elements in html are
+ article,
+ aside,
+ details,   
+ figcaption,
+ figure,
+ footer,
+ header,
+ main,
+ mark,
+ nav,
+ section,
+ summary,
+ time.
+ semantic elemens that can be used to define different parts of aweb page
+
+ // what are html apis?
+
+  HTML APIs are..   
+ 1.HTML geolocation
+ 2.HTML drag /drop  
+ 3.HTML web storage 
+ 4.HTML Web workers
+ 5.HTML SSE
+
+ // What are session and local storage?
+
+ 1. local storage stores data with no expiration date
+ 2. session storage stores data for one session (data is lost when 
+     the browser tab is closed)
+
+//what are pseudo selector?
+
+.In css pseudo-class is a keyword added to a selector that specifies
+ a special state of the selected elements 
+
+// Explain position?
+ .The position property specifies the type of positioning method used for an element .   
+ .There are five position values :
+
+ 1.static
+ 2.relative
+ 3.fixed
+ 4.absolute 
+ 5.sticky
+
+ // what is borderbox and box-sizing?
+ => The css box-sizing property allows us to include the padding 
+   and border in an elements total width and height.
+ // call, apply, bind
+  
+  .call()
+  with the call() method , takes arguments separatly. the apply() method
+  takes arguments as an array.
+  .apply()
+  with this method , you can write a method that can 
+  be used on different objects.
+  .bind()
+   An object can borrow a method from another object.  
+// async/await
+ . async and await make promises easier to write
+ =>async makes a function returns a promise.
+ =>await makes a function wait for a promise.
+ . promises
+ => A promise is a javascript object that links producing
+    code and consuming code.  
+ => callback
+  . A callback is a function passed as an argument to another function.
+  . This technique allows a function to call another function.
+  . A callback function can run after another funciton has finished.
+
+// callback hell
+  .callbackhell is also known as pyramid of doom, is an anti-pattern seen
+   in code of asynchronus programming.
+// map, filter ,reduce
+ => map
+ . A map holds key-value pairs where the keys can be any datatype.  
+ .A map remembers the original insertion order of the keys.
+ => filter
+  . This method creates a new array filled with elements that pass a test provided by a function 
+     and does not execute the function for empty elements and does not change the original array.
+  => reduce 
+  . The reduce() method executes a reducer function for array element . 
+  . This method does not change the original array.
+
+
+// spread operator?
+Spread operator (...)allows us to quickly copy all or part of an existing array .
+
+//ES6 features.
+
+ .let keyword
+ .const keyword
+ .map objects
+ .set objects
+ .arrow functions 
+ .classes
+ .promises
+ .symbol
+ .object entries and etc ..
